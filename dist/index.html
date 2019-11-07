@@ -1,0 +1,12 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"><title></title><style>html {
+      font-size: 100px;
+      /*1rem=100px*/
+    }</style><link href=/static/css/app.e35dc96cf151c31bf2cb3395170c92af.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=/static/js/manifest.e50365132670e94bb388.js></script><script type=text/javascript src=/static/js/vendor.4c0ade1a514e4613a064.js></script><script type=text/javascript src=/static/js/app.112ac9f11ee4656e1079.js></script></body><script>let desW = 750;
+  let htmlWidth = document.documentElement.clientWidth || document.body.clientWidth;
+  // console.log(desW, htmlWidth, ratio)
+  if (htmlWidth > 750) {
+    htmlWidth = 750
+  }
+  ratio = htmlWidth / desW
+  let htmlDom = document.getElementsByTagName('html')[0];
+  htmlDom.style.fontSize = ratio * 100 + 'px'</script></html>

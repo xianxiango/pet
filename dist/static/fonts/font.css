@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'PingFangSC-Medium';
+    src: url("../../common/fonts/PingFangSC-Medium.ttf");
+  }
+  
+  @font-face {
+    font-family: 'PingFangSC-Regular';
+    src: url("../../common/fonts/PingFangSC-Regular.ttf");
+  }
+  #h1 {
+    font-family: 'PingFangSC-Medium';
+  }
+  #h2 {
+    font-family: 'PingFangSC-Regular';
+  }
